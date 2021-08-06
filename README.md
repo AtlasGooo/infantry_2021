@@ -1,7 +1,7 @@
 # Infantry_2021
 
-**AUTHOR:**  Zijun Lin
-**EMAIL1:** 11810710@mail.sustech.edu.cn
+**AUTHOR:**  Zijun Lin  
+**EMAIL1:** 11810710@mail.sustech.edu.cn  
 **EMAIL2:** 1774525013@qq.com
 
 
