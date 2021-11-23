@@ -4,9 +4,6 @@
 **EMAIL1:** 11810710@mail.sustech.edu.cn  
 **EMAIL2:** 1774525013@qq.com
 
-
-This repository is code for infantry in ROBOMASTER 2021.
-
 Codes and documents are modified from [aimbot-artinx2021](https://github.com/NERanger/aimbot-artinx2021), which implements a basic code structure with serial communication module.
 
 
@@ -168,18 +165,6 @@ infantry_2021
 ## Some technical details
 * View [this page](https://atlasgooo.wordpress.com/2021/08/08/some-details-in-rm-infantry-2021/) .
 
-
-## Future works for 2022 (IMPORTANT)
-
-**You are highly recommended to develop a new code structure and use this code only as reference since it is not perfect enough.**
-
-* Consider a multi-thread structure to make it more flexible for new functions and modules as well as reduce processing time.
-* Use a new gravity compensate formula for the bullet.
-* Merge the code of detecting power-rune to the infantry code.
-* Add prediction modules that base on a coordinate transform between camera frame and robot base frame to predict the enemy pose related to the robot.
-* Add object detection & classification / semantic segmentation modules to detect robots and create a new thread to contribute to the believes of regions that include armors  (so that you can loose the armor detection rules to suit all case ).
-* Also you can consider using a depth camera to detect whole robot by point-cloud segmentation.
-* Move the PID control modules for gimbal's yaw/pitch from stm32 board to PC in order to make it more convenient to modified the parameters and try sliding-window error integration for PID.
 
 
 
